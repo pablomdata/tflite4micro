@@ -24,11 +24,17 @@ Materials for a course in Tensorflow Lite for Microcontrollers
 - Model optimisation (Quantisation, pruning, clustering)
 
 ## Installation instructions
-
+- Install virtualenv.
 `pip install virtualenv`
+
+- Create a virtual environment.
 `virtualenv env`
+
+- Activate the virtual environment.
 `env\Scripts\activate`
-`pip install matplotlib pandas jupyter tensorflow==2.15`
+
+- Install dependencies
+`pip install matplotlib pandas jupyter scikit-learn tensorflow==2.15`
 
 
 ## References / Case Studies
